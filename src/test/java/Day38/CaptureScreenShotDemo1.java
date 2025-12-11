@@ -16,13 +16,13 @@ public class CaptureScreenShotDemo1 {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		driver.get("https://testautomationpractice.blogspot.com/");
-		
-		TakesScreenshot ts = (TakesScreenshot)driver;
-		
+
+		TakesScreenshot ts = (TakesScreenshot) driver;
+
 		File sourcefile = ts.getScreenshotAs(OutputType.FILE);
-		File targetfile = new File(System.getProperty("user.dir")+"\\ScreenshotsFolder\\latestscreenshot.png");
+		File targetfile = new File(System.getProperty("user.dir") + "C:\\Automation\\myworkspace\\SeleniumWebdriver\\ScreenshotsFolder\\imagenew.png");
 		targetfile.renameTo(sourcefile);
-		
+
 		Thread.sleep(5000);
 		driver.quit();
 	}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="groupingconcept">
+	<test name="GroupTest">
+
+		<groups>
+			<run>
+				<include name="MajorRegression" />
+				<exclude name="Regression"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="Day44.LoginTestDemo" />
+			<class name="Day44.SignUpDemoTest" />
+			<class name="Day44.PaymentDemoTest" />
+		</classes>
+	</test>
+
+
+</suite>
