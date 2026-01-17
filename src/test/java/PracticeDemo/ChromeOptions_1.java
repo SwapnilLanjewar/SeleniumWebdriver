@@ -11,8 +11,8 @@ public class ChromeOptions_1 {
 	public static void main(String[] args) throws InterruptedException {
 		
 		ChromeOptions op = new ChromeOptions();
-		//op.addArguments("--headless=new");
-		op.addArguments("--incognito");
+		op.addArguments("--headless=new");
+		//op.addArguments("--incognito");
 		op.setAcceptInsecureCerts(true);
 		
 		WebDriver driver = new ChromeDriver(op);

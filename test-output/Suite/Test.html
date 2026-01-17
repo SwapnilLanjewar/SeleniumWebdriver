@@ -55,13 +55,13 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Dec 10 15:35:01 IST 2025</td>
+<td>Started on:</td><td>Thu Jan 15 12:41:30 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>5 seconds (5940 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (155 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td></td>
+<td>Included groups:</td><td>regression </td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
@@ -76,56 +76,19 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='PracticeDemo.TestGooglecase.testcase()'><b>testcase</b><br>Test class: PracticeDemo.TestGooglecase</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input class=&quot;gNO89b&quot; value=&quot;Google Search&quot; aria-label=&quot;Google Search&quot; name=&quot;btnK&quot; role=&quot;button&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; data-ved=&quot;0ahUKEwizsK3M4rKRAxW5dmwGHd5-Ff0Q4dUDCBM&quot;&gt; is not clickable at point (642, 338). Other element would receive the click: &lt;span&gt;...&lt;/span&gt;
-  (Session info: chrome=143.0.7499.41)
-Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [62edbbfd11a5589d05100e39e814e92c, clickElement {id=f.B2339BFE933B068A2F9798DC9DB3DC86.d.D1E3007BCDB182223D790C1E363F89E3.e.9}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\swapn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55675}, goog:processID: 3324, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55675/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (62edbbfd11a5589d05100e39e814e92c)] -&gt; xpath: (//input[@aria-label=&quot;Google Search&quot;])[2]]
-Session ID: 62edbbfd11a5589d05100e39e814e92c
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at PracticeDemo.TestGooglecase.testcase(TestGooglecase.java:32)
+<td title='Day42.TestExample1.testC()'><b>testC</b><br>Test class: Day42.TestExample1</td>
+<td><div><pre>java.lang.AssertionError: expected [B] but found [A]
+	at Day42.TestExample1.testC(TestExample1.java:22)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace484841769", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace484841769'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input class=&quot;gNO89b&quot; value=&quot;Google Search&quot; aria-label=&quot;Google Search&quot; name=&quot;btnK&quot; role=&quot;button&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; data-ved=&quot;0ahUKEwizsK3M4rKRAxW5dmwGHd5-Ff0Q4dUDCBM&quot;&gt; is not clickable at point (642, 338). Other element would receive the click: &lt;span&gt;...&lt;/span&gt;
-  (Session info: chrome=143.0.7499.41)
-Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [62edbbfd11a5589d05100e39e814e92c, clickElement {id=f.B2339BFE933B068A2F9798DC9DB3DC86.d.D1E3007BCDB182223D790C1E363F89E3.e.9}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\swapn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55675}, goog:processID: 3324, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55675/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (62edbbfd11a5589d05100e39e814e92c)] -&gt; xpath: (//input[@aria-label=&quot;Google Search&quot;])[2]]
-Session ID: 62edbbfd11a5589d05100e39e814e92c
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at PracticeDemo.TestGooglecase.testcase(TestGooglecase.java:32)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace510147134", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace510147134'><pre>java.lang.AssertionError: expected [B] but found [A]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at Day42.TestExample1.testC(TestExample1.java:22)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -153,8 +116,32 @@ Session ID: 62edbbfd11a5589d05100e39e814e92c
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>1</td>
-<td>PracticeDemo.TestGooglecase@5dda768f</td></tr>
+<td>0</td>
+<td>Day42.TestExample1@175c2241</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Day42.TestExample1.testD()'><b>testD</b><br>Test class: Day42.TestExample1</td>
+<td></td>
+<td>0</td>
+<td>Day42.TestExample1@175c2241</td></tr>
+<tr>
+<td title='Day42.TestExample1.testA()'><b>testA</b><br>Test class: Day42.TestExample1</td>
+<td></td>
+<td>0</td>
+<td>Day42.TestExample1@175c2241</td></tr>
+<tr>
+<td title='Day42.TestExample1.testE()'><b>testE</b><br>Test class: Day42.TestExample1</td>
+<td></td>
+<td>0</td>
+<td>Day42.TestExample1@175c2241</td></tr>
 </table><p>
 </body>
 </html>

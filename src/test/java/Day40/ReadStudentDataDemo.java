@@ -15,7 +15,7 @@ public class ReadStudentDataDemo {
 
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 
-		XSSFSheet sheet = workbook.getSheet("Sheet1");
+		XSSFSheet sheet = workbook.getSheet("StudentData");
 
 		/*
 		 * XSSFRow row = sheet.getRow(0);

@@ -1,106 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="1" total="5" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-11T08:00:31 IST" name="GridSuite" finished-at="2025-12-11T08:01:11 IST" duration-ms="39459">
+  <suite started-at="2026-01-15T12:41:30 IST" name="Suite" finished-at="2026-01-15T12:41:30 IST" duration-ms="155">
     <groups>
+      <group name="regression">
+        <method signature="TestExample1.testE()[pri:0, instance:Day42.TestExample1@175c2241]" name="testE" class="Day42.TestExample1"/>
+        <method signature="TestExample1.testD()[pri:1, instance:Day42.TestExample1@175c2241]" name="testD" class="Day42.TestExample1"/>
+        <method signature="TestExample1.testC()[pri:2, instance:Day42.TestExample1@175c2241]" name="testC" class="Day42.TestExample1"/>
+        <method signature="TestExample1.testA()[pri:4, instance:Day42.TestExample1@175c2241]" name="testA" class="Day42.TestExample1"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TestExample1.testD()[pri:1, instance:Day42.TestExample1@175c2241]" name="testD" class="Day42.TestExample1"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-12-11T08:00:31 IST" name="EdgeTest" finished-at="2025-12-11T08:00:58 IST" duration-ms="27405">
-      <class name="Day47.AlertsTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Day47.AlertsTest@399c4be1]" started-at="2025-12-11T08:00:31 IST" name="setup" finished-at="2025-12-11T08:00:37 IST" duration-ms="6225" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2026-01-15T12:41:30 IST" name="Test" finished-at="2026-01-15T12:41:30 IST" duration-ms="155">
+      <class name="Day42.TestExample1">
+        <test-method signature="testE()[pri:0, instance:Day42.TestExample1@175c2241]" started-at="2026-01-15T12:41:30 IST" name="testE" finished-at="2026-01-15T12:41:30 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="alerttest()[pri:0, instance:Day47.AlertsTest@399c4be1]" started-at="2025-12-11T08:00:38 IST" name="alerttest" finished-at="2025-12-11T08:00:50 IST" duration-ms="12019" status="PASS">
+        </test-method> <!-- testE -->
+        <test-method signature="testD()[pri:1, instance:Day42.TestExample1@175c2241]" started-at="2026-01-15T12:41:30 IST" name="testD" finished-at="2026-01-15T12:41:30 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- alerttest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Day47.AlertsTest@399c4be1]" started-at="2025-12-11T08:00:50 IST" name="teardown" finished-at="2025-12-11T08:00:58 IST" duration-ms="8714" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Day47.AlertsTest -->
-    </test> <!-- EdgeTest -->
-    <test started-at="2025-12-11T08:00:31 IST" name="ChromeTest" finished-at="2025-12-11T08:00:58 IST" duration-ms="27405">
-      <class name="Day47.AlertsTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Day47.AlertsTest@b3ca52e]" started-at="2025-12-11T08:00:31 IST" name="setup" finished-at="2025-12-11T08:00:37 IST" duration-ms="6300" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="alerttest()[pri:0, instance:Day47.AlertsTest@b3ca52e]" started-at="2025-12-11T08:00:38 IST" name="alerttest" finished-at="2025-12-11T08:00:50 IST" duration-ms="12681" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- alerttest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Day47.AlertsTest@b3ca52e]" started-at="2025-12-11T08:00:50 IST" name="teardown" finished-at="2025-12-11T08:00:58 IST" duration-ms="8220" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Day47.AlertsTest -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2025-12-11T08:00:31 IST" name="FirefoxTest" finished-at="2025-12-11T08:01:11 IST" duration-ms="39459">
-      <class name="Day47.AlertsTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Day47.AlertsTest@6a2f6f80]" started-at="2025-12-11T08:00:31 IST" name="setup" finished-at="2025-12-11T08:01:08 IST" duration-ms="36490" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="alerttest()[pri:0, instance:Day47.AlertsTest@6a2f6f80]" started-at="2025-12-11T08:01:08 IST" name="alerttest" finished-at="2025-12-11T08:01:10 IST" duration-ms="2397" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        </test-method> <!-- testD -->
+        <test-method signature="testC()[pri:2, instance:Day42.TestExample1@175c2241]" started-at="2026-01-15T12:41:30 IST" name="testC" finished-at="2026-01-15T12:41:30 IST" duration-ms="17" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Browsing context has been discarded
-Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [a0b54367-719b-4c42-970d-cdd25bfe34f9, findElement {using=xpath, value=//button[@id='alertBtn']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0, moz:accessibilityChecks: false, moz:buildID: 20251205151434, moz:firefoxOptions: {binary: C:\Users\swapn\.cache\selen..., prefs: {remote.active-protocols: 1}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19580, moz:profile: C:\Users\swapn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: a0b54367-719b-4c42-970d-cdd25bfe34f9]]>
+              <![CDATA[expected [B] but found [A]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [a0b54367-719b-4c42-970d-cdd25bfe34f9, findElement {using=xpath, value=//button[@id='alertBtn']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0, moz:accessibilityChecks: false, moz:buildID: 20251205151434, moz:firefoxOptions: {binary: C:\Users\swapn\.cache\selen..., prefs: {remote.active-protocols: 1}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19580, moz:profile: C:\Users\swapn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: a0b54367-719b-4c42-970d-cdd25bfe34f9
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
-at Day47.AlertsDemo.clicksimplealert(AlertsDemo.java:28)
-at Day47.AlertsTest.alerttest(AlertsTest.java:48)
+              <![CDATA[java.lang.AssertionError: expected [B] but found [A]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at Day42.TestExample1.testC(TestExample1.java:22)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -115,76 +52,29 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- alerttest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Day47.AlertsTest@6a2f6f80]" started-at="2025-12-11T08:01:10 IST" name="teardown" finished-at="2025-12-11T08:01:11 IST" duration-ms="495" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Failed to decode response from marionette
-Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [a0b54367-719b-4c42-970d-cdd25bfe34f9, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0, moz:accessibilityChecks: false, moz:buildID: 20251205151434, moz:firefoxOptions: {binary: C:\Users\swapn\.cache\selen..., prefs: {remote.active-protocols: 1}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19580, moz:profile: C:\Users\swapn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: a0b54367-719b-4c42-970d-cdd25bfe34f9]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
-Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [a0b54367-719b-4c42-970d-cdd25bfe34f9, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0, moz:accessibilityChecks: false, moz:buildID: 20251205151434, moz:firefoxOptions: {binary: C:\Users\swapn\.cache\selen..., prefs: {remote.active-protocols: 1}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19580, moz:profile: C:\Users\swapn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: a0b54367-719b-4c42-970d-cdd25bfe34f9
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:634)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:458)
-at Day47.AlertsTest.teardown(AlertsTest.java:64)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
-at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        </test-method> <!-- testC -->
+        <test-method signature="testA()[pri:4, instance:Day42.TestExample1@175c2241]" started-at="2026-01-15T12:41:30 IST" name="testA" finished-at="2026-01-15T12:41:30 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Day47.AlertsTest -->
-    </test> <!-- FirefoxTest -->
-  </suite> <!-- GridSuite -->
+        </test-method> <!-- testA -->
+      </class> <!-- Day42.TestExample1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -21,13 +21,20 @@ public class KeyboardActions_1 {
 
 		Actions act = new Actions(driver);
 
+		/*
 		act.keyDown(Keys.CONTROL).sendKeys("A").keyDown(Keys.CONTROL).sendKeys("C").keyUp(Keys.CONTROL)
 				.keyUp(Keys.CONTROL).perform();
 
 		act.keyDown(Keys.TAB).keyUp(Keys.TAB).perform();
 
 		act.keyDown(Keys.CONTROL).sendKeys("V").keyUp(Keys.TAB).perform();
-
+		*/
+		
+		act.keyDown(Keys.CONTROL).sendKeys("A").keyDown(Keys.CONTROL).sendKeys("C").keyUp(Keys.CONTROL).keyUp(Keys.CONTROL).perform();
+		
+		act.keyDown(Keys.TAB).keyUp(Keys.TAB).perform();
+		
+		act.keyDown(Keys.CONTROL).sendKeys("V").keyUp(Keys.TAB).perform();
 	}
 
 }
